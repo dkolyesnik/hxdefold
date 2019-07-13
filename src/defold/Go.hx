@@ -238,9 +238,42 @@ class GoProperties {
     static var euler(default, never) = new Property<Vector3>("euler");
 
     /**
+        The rotation of the game object around x-axis.
+        Euler angles are specified in degrees in the interval (-360, 360).
+    **/
+    static var eulerX(default, never) = new Property<Float>("euler.x");
+
+    /**
+        The rotation of the game object around y-axis.
+        Euler angles are specified in degrees in the interval (-360, 360).
+    **/
+    static var eulerY(default, never) = new Property<Float>("euler.y");
+
+    /**
+        The rotation of the game object around z-axis.
+        Euler angles are specified in degrees in the interval (-360, 360).
+    **/
+    static var eulerZ(default, never) = new Property<Float>("euler.z");
+
+    /**
         The position of the game object.
     **/
     static var position(default, never) = new Property<Vector3>("position");
+
+    /**
+        The position.x of the game object.
+    **/
+    static var positionX(default, never) = new Property<Float>("position.x");
+
+    /**
+        The position.y of the game object.
+    **/
+    static var positionY(default, never) = new Property<Float>("position.y");
+
+    /**
+        The position.z of the game object.
+    **/
+    static var positionZ(default, never) = new Property<Float>("position.z");
 
     /**
         The rotation of the game object.
